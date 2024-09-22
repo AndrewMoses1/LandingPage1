@@ -923,7 +923,7 @@ function App() {
                 </ul>
                 <div className='mobile-menu-buttons flex flex-row self-center  mt-[46px] gap-[20px] opacity-0 md:mt-[50px] md:gap-[250px] lg:gap-[400px]'>
                     <a href="mailto:andrew.moses.smith@gmail.com"><button className='p-4 text-white bg-blue-600 font-Archivo font-[500] rounded-[40px] md:p-[17px] md:rounded-[40px] '>Send Me An Email</button></a>
-                    <button className='p-4 text-white bg-black font-Archivo font-[500] rounded-[40px] md:p-[17px] md:rounded-[40px]'>Download CV</button>
+                    <a href="https://artistix.blob.core.windows.net/artistix/AndrewSmithResume.png"><button className='p-4 text-white bg-black font-Archivo font-[500] rounded-[40px] md:p-[17px] md:rounded-[40px]'>View Resume</button></a>
                 </div>
                 <div className='mobile-menu-logos flex flex-row self-center mt-[53px] gap-[38px] opacity-0 md:mt-[60px] md:gap-[120px] lg:gap-[200px]'>
                     <a href="mailto:andrew.moses.smith@gmail.com"><img className='h-[57px] w-[57px] cursor-pointer md:h-[80px] md:w-[80px]' src={googleLogo} alt="A Google Logo" /></a>
