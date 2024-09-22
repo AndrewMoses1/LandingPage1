@@ -1,0 +1,1073 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.entire-website-container > div:nth-child(18) {
+  background-color: rgba(219, 234, 254, .7);
+  backdrop-filter: blur(8px);
+}
+.home-container > div:nth-child(2) {
+  background: linear-gradient(to right, black 0%, rgba(0, 0, 0, .4) 68%, rgba(0, 0, 0, .3) 72%, transparent 100%);
+}
+.home-container > div:nth-child(7) > div:first-child {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .95) 4%, rgba(0, 0, 0, .6) 20%, rgba(0, 0, 0, .6) 35%, rgba(0, 0, 0, .37) 49%, rgba(0, 0, 0, .23) 51%, rgba(0, 0, 0, 0) 55%, transparent 100%);
+}
+.about-radial-gradient {
+  background: radial-gradient(circle, rgb(49, 77, 236) 0%, transparent 70%);
+}
+.about-coding-background-md {
+  background: radial-gradient(circle, rgb(32, 50, 153) 0%, transparent 100%);
+}
+.about-container-xs > img:first-child {
+  animation: moveQuotations1 15s infinite;
+}
+.about-container-xs > div:nth-child(4) > img:first-child {
+  animation: moveQuotations2 15s infinite;
+}
+.about-container-xs > div:nth-child(4) > img:nth-child(2) {
+  animation: moveBadgeAndBracketImage 15s infinite;
+}
+.about-container-xs > div:nth-child(5) > div:nth-child(2) > img:nth-child(4) {
+  animation: moveBadgeAndBracketImage 15s infinite;
+}
+.about-container-md > div:first-child {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite 1s;
+}
+.about-container-md > div:nth-child(2) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite;
+}
+.about-container-md > div:nth-child(3) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite 1s;
+}
+.about-container-md > div:nth-child(4) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite;
+}
+.about-container-md > div:nth-child(5) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite 1s;
+}
+.about-container-md > div:nth-child(6) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite;
+}
+.about-container-md > div:nth-child(7) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite 1s;
+}
+.about-container-md > div:nth-child(8) {
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%);
+  border: 3px solid black;
+  animation: spin 5s linear infinite;
+}
+.about-container-md > div:nth-child(12) > div:nth-child(3) {
+  background: linear-gradient(to right, rgba(219, 234, 254, .85) 60%, rgba(219, 234, 254, 1) 80%);
+}
+.about-container-md > div:nth-child(12) > div:nth-child(4) {
+  background: linear-gradient(to bottom, rgba(239, 246, 255, 1) 60%, rgba(255, 255, 255, .8) 80%);
+}
+.front-end-title-md {
+  background: radial-gradient(circle, rgb(1, 27, 158) 0%, transparent 170%);
+}
+.back-end-title-md {
+  background: radial-gradient(circle, rgb(1, 27, 158) 0%, transparent 170%);
+}
+.oop-languages-title-md {
+  background: radial-gradient(circle, rgb(1, 27, 158) 0%, transparent 170%);
+}
+.miscellaneous-title-md {
+  background: radial-gradient(circle, rgb(1, 27, 158) 0%, transparent 170%);
+}
+.first-line-of-code-md {
+  animation: moveLine1Md 1s linear forwards 1.5s;
+}
+.first-line-of-code-cursor-md {
+  animation: cursorBlinkLine1 2.5s linear forwards;
+}
+.first-line-of-code-xl {
+  animation: moveLine1Xl 1s linear forwards 1.5s;
+}
+.first-line-of-code-cursor-xl {
+  animation: cursorBlinkLine1 2.5s linear forwards;
+}
+.second-line-of-code-md {
+  animation: moveLine2Md 1s linear forwards 2.5s;
+}
+.second-line-of-code-cursor-md {
+  animation: cursorBlinkLine2 1s linear forwards 2.5s;
+}
+.second-line-of-code-xl {
+  animation: moveLine2Xl 1s linear forwards 2.5s;
+}
+.second-line-of-code-cursor-xl {
+  animation: cursorBlinkLine2 1s linear forwards 2.5s;
+}
+.third-line-of-code-md {
+  animation: moveLine3Md 1s linear forwards 3.5s;
+}
+.third-line-of-code-cursor-md {
+  animation: cursorBlinkLine3 2.5s linear forwards 3.5s;
+}
+.third-line-of-code-xl {
+  animation: moveLine3Xl 1s linear forwards 3.5s;
+}
+.third-line-of-code-cursor-xl {
+  animation: cursorBlinkLine3 2.5s linear forwards 3.5s;
+}
+.fourth-line-of-code-md {
+  animation: moveLine4Md 2s linear forwards 7.5s;
+}
+.fourth-line-of-code-cursor-md {
+  animation: cursorBlinkLine4 3.5s linear forwards 6s;
+}
+.fourth-line-of-code-xl {
+  animation: moveLine4Xl 2s linear forwards 7.5s;
+}
+.fourth-line-of-code-cursor-xl {
+  animation: cursorBlinkLine4 3.5s linear forwards 6s;
+}
+.front-end-expanding-rectangle1-md {
+  animation: expand1Md 8s linear infinite;
+}
+.front-end-expanding-rectangle2-md {
+  animation: expand1Md 8s linear infinite 1s;
+}
+.front-end-expanding-rectangle1-xl {
+  animation: expand1Xl 8s linear infinite;
+}
+.front-end-expanding-rectangle2-xl {
+  animation: expand1Xl 8s linear infinite 1s;
+}
+.back-end-expanding-rectangle1-md {
+  animation: expand1Md 8s linear infinite 5s;
+}
+.back-end-expanding-rectangle2-md {
+  animation: expand1Md 8s linear infinite 6s;
+}
+.back-end-expanding-rectangle1-xl {
+  animation: expand1Xl 8s linear infinite 5s;
+}
+.back-end-expanding-rectangle2-xl {
+  animation: expand1Xl 8s linear infinite 6s;
+}
+.oop-languages-expanding-rectangle1-md {
+  animation: expand1Md 8s linear infinite 3s;
+}
+.oop-languages-expanding-rectangle2-md {
+  animation: expand1Md 8s linear infinite 4s;
+}
+.oop-languages-expanding-rectangle1-xl {
+  animation: expand1Xl 8s linear infinite 3s;
+}
+.oop-languages-expanding-rectangle2-xl {
+  animation: expand1Xl 8s linear infinite 4s;
+}
+.miscellaneous-expanding-rectangle1-md {
+  animation: expand2Md 8s linear infinite 2s;
+}
+.miscellaneous-expanding-rectangle2-md {
+  animation: expand2Md 8s linear infinite 3s;
+}
+.miscellaneous-expanding-rectangle1-xl {
+  animation: expand2Xl 8s linear infinite 2s;
+}
+.miscellaneous-expanding-rectangle2-xl {
+  animation: expand2Xl 8s linear infinite 3s;
+}
+.about-m-letter-md {
+  background-color: rgb(26, 2, 134);
+}
+.contact-container-xs {
+  background: linear-gradient(to bottom, black 5%, #0E315A 70%, black 85%);
+}
+  .contact-container-xs > img:nth-child(2) {
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,.3), rgba(0,0,0,.7), rgba(0,0,0,0));
+  }
+  .contact-container-xs > div:nth-child(3) {
+    background: linear-gradient(to left, rgb(73, 70, 248) 30%, rgb(63, 1, 177) 80%, black 100%);
+  }
+  .contact-container-xs > div:nth-child(4) {
+    background: linear-gradient(to bottom left, rgb(0, 174, 255) 30%, rgb(0, 34, 128) 80%, black 100%);
+  }
+  .contact-container-xs > div:nth-child(5) {
+    background: linear-gradient(to bottom left, rgb(0, 174, 255) 30%, rgb(0, 34, 128) 80%, black 100%)
+  }
+  .contact-container-xs > div:nth-child(6) {
+    background-color: rgba(1, 15, 31, .7);
+  }
+  .contact-container-xs > div:nth-child(7) {
+    background: linear-gradient(205deg, rgb(117, 70, 248) 30%, rgb(63, 1, 177) 60%, black 100%);
+  }
+  .contact-container-xs > div:nth-child(8) {
+    background-color: rgba(11, 0, 31, .7);
+  }
+  .contact-container-xs > div:nth-child(9) {
+    background-color: rgba(44, 46, 61, 0.6);
+    backdrop-filter: blur(8px);
+  }
+    .contact-container-xs > div:nth-child(9) > span:nth-child(4) {
+      font-family: 'Playwrite NZ', 'cursive';
+    }
+  .contact-container-xs > div:nth-child(10) > span:first-child {
+    font-family: 'Playwrite NZ', 'cursive';
+  }
+.contact-text-md {
+  font-family: 'Playwrite NZ', 'cursive';
+}
+.contact-half-circle-md {
+  animation: moveHalfCircle 15s infinite;
+}
+.contact-google-md {
+  animation: moveGoogleMailContactCard 10s infinite;
+  animation-timing-function: cubic-bezier(0.5, 1, 1, 1);
+}
+.contact-snhu-md {
+  animation: moveSnhuMailContactCard 10s infinite .7s;
+}
+.contact-ios-md {
+  animation: moveIosNotificationContactCard 10s infinite .35s;
+}
+.contact-quarter-circle-md {
+  animation: moveQuarterCircle 15s infinite;
+}
+.contact-half-rectangle-md {
+  animation: moveHalfRectangle 15s infinite;
+}
+@keyframes expand1Md {
+  0% {
+    height: 220px;
+    width: 220px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  3% {
+    border: 2px solid rgba(145, 0, 145, 0);
+  }
+  4% {
+    border: 2px solid rgba(6, 44, 232, .5);
+  }
+  10% {
+    border: 2px solid rgba(6, 44, 232, 1);
+  }
+  30% {
+    height: 280px;
+    width: 280px;
+    border: 2px solid rgba(6, 44, 232, 0);
+  }
+  31% {
+    height: 280px;
+    width: 280px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+  32% {
+    height: 280px;
+    width: 280px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  100% {
+    height: 280px;
+    width: 280px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+}
+@keyframes expand1Xl {
+  0% {
+    height: 320px;
+    width: 320px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  3% {
+    border: 2px solid rgba(145, 0, 145, 0);
+  }
+  4% {
+    border: 2px solid rgba(6, 44, 232, .5);
+  }
+  10% {
+    border: 2px solid rgba(6, 44, 232, 1);
+  }
+  30% {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(6, 44, 232, 0);
+  }
+  31% {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+  32% {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  100% {
+    height: 400px;
+    width: 400px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+}
+@keyframes expand2Md {
+  0% {
+    height: 320px;
+    width: 350px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  3% {
+    border: 2px solid rgba(145, 0, 145, 0);
+  }
+  4% {
+    border: 2px solid rgba(6, 44, 232, .5);
+  }
+  10% {
+    border: 2px solid rgba(6, 44, 232, 1);
+  }
+  30% {
+    height: 380px;
+    width: 410px;
+    border: 2px solid rgba(6, 44, 232, 0);
+  }
+  31% {
+    height: 380px;
+    width: 410px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+  32% {
+    height: 380px;
+    width: 410px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  100% {
+    height: 380px;
+    width: 410px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+}
+@keyframes expand2Xl {
+  0% {
+    height: 550px;
+    width: 550px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  3% {
+    border: 2px solid rgba(145, 0, 145, 0);
+  }
+  4% {
+    border: 2px solid rgba(6, 44, 232, .5);
+  }
+  10% {
+    border: 2px solid rgba(6, 44, 232, 1);
+  }
+  30% {
+    height: 650px;
+    width: 650px;
+    border: 2px solid rgba(6, 44, 232, 0);
+  }
+  31% {
+    height: 650px;
+    width: 650px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+  32% {
+    height: 650px;
+    width: 650px;
+    border: 2px solid rgba(145, 0, 145, 0);
+    border-radius: 10px;
+  }
+  100% {
+    height: 650px;
+    width: 650px;
+    border: 2px solid rgba(6, 44, 232, 0);
+    border-radius: 10px;
+  }
+}
+@keyframes cursorBlinkLine1 {
+  0% {
+    background-color: white;
+  }
+  10% {
+    background-color: rgb(2 6 23);
+  }
+  20% {
+    background-color: white;
+  }
+  30% {
+    background-color: rgb(2 6 23);
+  }
+  40% {
+    background-color: white;
+  }
+  50% {
+    background-color: rgb(2 6 23);
+  }
+  60% {
+    background-color: white;
+  }
+  99% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(2 6 23);
+  }
+}
+@keyframes cursorBlinkLine2 {
+  0% {
+    background-color: white;
+  }
+  99% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(2 6 23);
+  }
+}
+@keyframes cursorBlinkLine3 {
+  0% {
+    background-color: white;
+  }
+  30% {
+    background-color: white;
+  }
+  40% {
+    background-color: rgb(2 6 23);
+  }
+  50% {
+    background-color: white;
+  }
+  60% {
+    background-color: rgb(2 6 23);
+  }
+  70% {
+    background-color: white;
+  }
+  80% {
+    background-color: rgb(2 6 23);
+  }
+  90% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(2 6 23);
+  }
+}
+@keyframes cursorBlinkLine4 {
+  0% {
+    background-color: white;
+  }
+  7% {
+    background-color: rgb(2 6 23);
+  }
+  14% {
+    background-color: white;
+  }
+  21% {
+    background-color: rgb(2 6 23);
+  }
+  28% {
+    background-color: white;
+  }
+  35% {
+    background-color: rgb(2 6 23);
+  }
+  42% {
+    background-color: white;
+  }
+  99% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(2 6 23);
+  }
+}
+@keyframes moveLine1Md {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 90px;
+  }
+}
+@keyframes moveLine1Xl {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 145px;
+  }
+}
+@keyframes moveLine2Md {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 120px;
+  }
+}
+@keyframes moveLine2Xl {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 175px;
+  }
+}
+@keyframes moveLine3Md {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 50px;
+  }
+  60% {
+    margin-left: 50px;
+  }
+  70% {
+    margin-left: 50px;
+  }
+  80% {
+    margin-left: 50px;
+  }
+  90% {
+    margin-left: 50px;
+  }
+  99% {
+    margin-left: 50px;
+  }
+  100% {
+    margin-left: 50px;
+  }
+}
+@keyframes moveLine3Xl {
+  0% {
+    margin-left: 0px;
+  }
+  50% {
+    margin-left: 77px;
+  }
+  60% {
+    margin-left: 77px;
+  }
+  70% {
+    margin-left: 77px;
+  }
+  80% {
+    margin-left: 77px;
+  }
+  90% {
+    margin-left: 77px;
+  }
+  99% {
+    margin-left: 77px;
+  }
+  100% {
+    margin-left: 77px;
+  }
+}
+@keyframes moveLine4Md {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 165px;
+  }
+}
+@keyframes moveLine4Xl {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 250px;
+  }
+}
+
+@keyframes moveQuotations1 {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(30%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(30%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(30%);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(30%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveQuotations2 {
+  0% {
+    transform: translateY(0) scaleX(-1);
+  }
+  10% {
+    transform: translateY(30%) scaleX(-1);
+  }
+  20% {
+    transform: translateY(0) scaleX(-1);
+  }
+  30% {
+    transform: translateY(30%) scaleX(-1);
+  }
+  40% {
+    transform: translateY(0) scaleX(-1);
+  }
+  50% {
+    transform: translateY(30%) scaleX(-1);
+  }
+  60% {
+    transform: translateY(0) scaleX(-1);
+  }
+  70% {
+    transform: translateY(30%) scaleX(-1);
+  }
+  80% {
+    transform: translateY(0) scaleX(-1);
+  }
+  90% {
+    transform: translateY(30%) scaleX(-1);
+  }
+  100% {
+    transform: translateY(0) scaleX(-1);
+  }
+}
+@keyframes moveBadgeAndBracketImage {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(10%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(10%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(10%);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveHalfCircle {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(5%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(5%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(5%);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveQuarterCircle {
+  0% {
+    transform: translateY(0) scaleX(-1);
+  }
+  10% {
+    transform: translateY(8%) scaleX(-1);
+  }
+  20% {
+    transform: translateY(0) scaleX(-1);
+  }
+  30% {
+    transform: translateY(8%) scaleX(-1);
+  }
+  40% {
+    transform: translateY(0) scaleX(-1);
+  }
+  50% {
+    transform: translateY(8%) scaleX(-1);
+  }
+  60% {
+    transform: translateY(0) scaleX(-1);
+  }
+  70% {
+    transform: translateY(8%) scaleX(-1);
+  }
+  80% {
+    transform: translateY(0) scaleX(-1);
+  }
+  90% {
+    transform: translateY(8%) scaleX(-1);
+  }
+  100% {
+    transform: translateY(0) scaleX(-1);
+  }
+}
+@keyframes moveHalfRectangle {
+  0% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(10%);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(10%);
+  }
+  40% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  60% {
+    transform: translateY(0);
+  }
+  70% {
+    transform: translateY(10%);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  90% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes moveGoogleMailContactCard {
+  0% {
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  6% {
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    animation-timing-function: ease-in-out;
+  }
+  10% {
+    margin-top: -5px;
+    margin-left: -90px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.15);
+    animation-timing-function: ease-in-out;
+  }
+  15.5% {
+    margin-top: 45px;
+    margin-left: -80px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.3);
+    animation-timing-function: ease-in-out;
+  }
+  21.5% {
+    margin-top: 35px;
+    margin-left: -85px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.3);
+    animation-timing-function: linear;
+  }
+  53% {
+    margin-top: 45px;
+    margin-left: -65px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.3);
+    animation-timing-function: linear;
+  }
+  79% {
+    margin-top: 35px;
+    margin-left: -85px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.3);
+    animation-timing-function: linear;
+  }
+  81% {
+    margin-top: 35px;
+    margin-left: -85px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.4);
+    animation-timing-function: ease-in-out;
+  }
+  85% {
+    margin-top: 0;
+    margin-left: 0;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  100% {
+    margin-top: 0px;
+    margin-left: 0px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+}
+@keyframes moveSnhuMailContactCard {
+  0% {
+    margin-top: 0;
+    margin-left: 386.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  6% {
+    margin-top: 0;
+    margin-left: 386.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    animation-timing-function: ease-in-out;
+  }
+  10% {
+    margin-top: -30px;
+    margin-left: 296.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.17);
+    animation-timing-function: ease-in-out;
+  }
+  15.5% {
+    margin-top: -9px;
+    margin-left: 306.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.17);
+    animation-timing-function: ease-in-out;
+  }
+  21.5% {
+    margin-top: -9px;
+    margin-left: 301.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.17);
+    animation-timing-function: linear;
+  }
+  53% {
+    margin-top: -9px;
+    margin-left: 321.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.17);
+    animation-timing-function: linear;
+  }
+  79% {
+    margin-top: -9px;
+    margin-left: 301.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.17);
+    animation-timing-function: linear;
+  }
+  81% {
+    margin-top: -9px;
+    margin-left: 301.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.27);
+    animation-timing-function: ease-in-out;
+  }
+  85% {
+    margin-top: 0;
+    margin-left: 386.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  100% {
+    margin-top: 0;
+    margin-left: 386.4px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+}
+@keyframes moveIosNotificationContactCard {
+  0% {
+    margin-top: 0;
+    margin-left: 193.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  6% {
+    margin-top: 0;
+    margin-left: 193.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+    animation-timing-function: ease-in-out;
+  }
+  10% {
+    margin-top: 65px;
+    margin-left: 283.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.25);
+    animation-timing-function: ease-in-out;
+  }
+  15.5% {
+    margin-top: 55px;
+    margin-left: 273.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.25);
+    animation-timing-function: ease-in-out;
+  }
+  21.5% {
+    margin-top: 60px;
+    margin-left: 278.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.25);
+    animation-timing-function: linear;
+  }
+  53% {
+    margin-top: 55px;
+    margin-left: 258.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.25);
+    animation-timing-function: linear;
+  }
+  79% {
+    margin-top: 60px;
+    margin-left: 278.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.25);
+    animation-timing-function: linear;
+  }
+  81% {
+    margin-top: 55px;
+    margin-left: 263.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, .4);
+    transform: scale(1.32);
+    animation-timing-function: ease-in-out;
+  }
+  85% {
+    margin-top: 0;
+    margin-left: 193.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+  100% {
+    margin-top: 0px;
+    margin-left: 193.1px;
+    box-shadow: 20px 20px 9px rgba(0, 0, 0, 0);
+    transform: scale(1);
+  }
+}
+@keyframes spin {
+  0% {
+    rotate: 0deg;
+  }
+  100% {
+    rotate: 360deg;
+  }
+}
+@media screen and (min-width: 440px) {
+  .contact-container-xs > img:first-child {
+    margin-top: -10vw;
+    margin-left: -44vw;
+  }
+}
+@media screen and (min-width: 560px) {
+  .contact-container-xs > img:first-child {
+    margin-top: -8vw;
+    margin-left: -50vw;
+  }
+}
+@media screen and (min-width: 670px) {
+  .contact-container-xs > img:first-child {
+    margin-top: -6vw;
+    margin-left: -58vw;
+  }
+}
+@media screen and (min-width: 700px) {
+  .home-container > div:nth-child(7) > img:nth-child(2) {
+    min-width: 1060px;
+    width: 1060px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .home-container > div:nth-child(2) {
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, .4) 58%, rgba(0, 0, 0, .3) 62%, transparent 100%);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .home-container > div:nth-child(2) {
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, .9) 10%, rgba(0, 0, 0, .45) 25%, rgba(0, 0, 0, .3) 48%, rgba(0, 0, 0, .1) 55%, transparent 100%);
+  }
+}
+@media screen and (min-width: 1400px) {
+  .home-container > div:nth-child(2) {
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, .9) 15%, rgba(0, 0, 0, .45) 25%, rgba(0, 0, 0, .3) 48%, rgba(0, 0, 0, .1) 55%, transparent 100%);
+  }
+}
+@media screen and (min-width: 1580px) {
+  .home-container > div:nth-child(2) {
+    background: linear-gradient(to right, black 0%, rgba(0, 0, 0, .9) 20%, rgba(0, 0, 0, .45) 25%, rgba(0, 0, 0, .3) 48%, rgba(0, 0, 0, .1) 55%, transparent 100%);
+  }
+}
