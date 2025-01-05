@@ -1328,8 +1328,8 @@ function App() {
                         <a href="mailto:andrew.moses.smith@gmail.com"><span className='text-[16px] text-white font-[Archivo] font-[400] drop-shadow-[0px_8px_5px_rgba(0,0,0,1)]'>Andrew.Moses.Smith</span></a>
                     </div>
                     <div className='flex flex-row items-center mt-[30px] gap-[18px]'>
-                        <a href="mailto:andy.smith@snhu.edu"><img className='h-[40px] w-[40px] rounded-[5px] shadow-[0px_3px_5px_0px_rgba(0,0,0,.7)]' src={snhuLogoXs} alt='' /></a>
-                        <a href="mailto:andy.smith@snhu.edu"><span className='text-[16px] text-white font-[Archivo] font-[400] drop-shadow-[0px_8px_5px_rgba(0,0,0,1)]'>Andy.Smith@snhu.edu</span></a>
+                        <a href="mailto:andrew.smith@snhu.edu"><img className='h-[40px] w-[40px] rounded-[5px] shadow-[0px_3px_5px_0px_rgba(0,0,0,.7)]' src={snhuLogoXs} alt='' /></a>
+                        <a href="mailto:andrew.smith@snhu.edu"><span className='text-[16px] text-white font-[Archivo] font-[400] drop-shadow-[0px_8px_5px_rgba(0,0,0,1)]'>Andy.Smith@snhu.edu</span></a>
                     </div>
                     <div className='flex flex-row items-center mt-[30px] gap-[18px]'>
                         <a href="https://github.com/AndrewMoses1"><img className='h-[40px] w-[40px] rounded-[25px] shadow-[0px_3px_5px_0px_rgba(0,0,0,.7)]' src={gitHubLogo} alt='' /></a>
