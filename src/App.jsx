@@ -927,7 +927,7 @@ function App() {
                 </div>
                 <div className='mobile-menu-logos flex flex-row self-center mt-[53px] gap-[38px] opacity-0 md:mt-[60px] md:gap-[120px] lg:gap-[200px]'>
                     <a href="mailto:andrew.moses.smith@gmail.com"><img className='h-[57px] w-[57px] cursor-pointer md:h-[80px] md:w-[80px]' src={googleLogo} alt="A Google Logo" /></a>
-                    <a href="mailto:andy.smith@snhu.edu"><img className='h-[57px] w-[57px] cursor-pointer md:h-[80px] md:w-[80px]' src={outlookLogo} alt="A Microsoft Outlook Logo" /></a>
+                    <a href="mailto:andrew.smith@snhu.edu"><img className='h-[57px] w-[57px] cursor-pointer md:h-[80px] md:w-[80px]' src={outlookLogo} alt="A Microsoft Outlook Logo" /></a>
                     <a href="https://github.com/AndrewMoses1"><img className='h-[57px] w-[57px] cursor-pointer md:h-[80px] md:w-[80px]' src={gitHubLogo} alt="A GitHub Logo" /></a>
                 </div>
             </div>
@@ -959,7 +959,7 @@ function App() {
                         <a href="mailto:andrew.moses.smith@gmail.com"><button className='absolute h-[60px] w-[190px] mt-[60px] ml-[120px] bg-blue-600 text-[20px] text-white font-[Archivo] rounded-[30px] xl:hover:w-[230px] xl:hover:bg-indigo-600 lg:mt-[60px] lg:ml-[234px] xl:ml-[20px] xl:transition-[width] xl:duration-[.2s]'>Contact Me</button></a>
                         <a href="https://github.com/AndrewMoses1"><img className='hidden xl:flex w-[60px] h-[60px] mt-[58px] ml-[310px] cursor-pointer' src={gitHubLogo} alt="A GitHub Logo" /></a>
                         <a href="mailto:andrew.moses.smith@gmail.com"><img className='hidden xl:flex w-[63px] h-[63px] mt-[57px] ml-[60px] cursor-pointer' src={googleLogo} alt="A Google Logo" /></a>
-                        <a href="mailto:andy.smith@snhu.edu"><img className='hidden xl:flex w-[65px] h-[65px] mt-[56px] ml-[63px] cursor-pointer' src={outlookLogo} alt="A Microsoft Outlook Logo" /></a>
+                        <a href="mailto:andrew.smith@snhu.edu"><img className='hidden xl:flex w-[65px] h-[65px] mt-[56px] ml-[63px] cursor-pointer' src={outlookLogo} alt="A Microsoft Outlook Logo" /></a>
                     </div>
                 </div>
                 <div className='flex flex-col items-center mt-[25px] rounded-[15px] z-[20] overflow-hidden md:hidden'>
@@ -1405,7 +1405,7 @@ function App() {
                                     <div className='absolute flex flex-col h-[210px] w-[173px] ml-[386.4px] bg-gray-200 overflow-hidden'>
                                         <img className='h-[232px] w-[173px] mt-[-11px] skew-y-[-5deg]' src={homeAddressContactCardMd} alt='' />
                                         <span className='absolute mt-[123px] ml-[6px] text-[11px] text-gray-700 font-[Archivo] font-[500]'>Mailing Address</span>
-                                        <span className='absolute mt-[155px] ml-[23px] text-center text-[12px] font-[Archivo] font-[800]'>13012 Fir Ridge Ct <br /> Victorville, CA 92392</span>
+                                        <span className='absolute mt-[155px] ml-[23px] text-center text-[12px] font-[Archivo] font-[800]'>4142 Santa Rose Ave <br /> Sacramento, CA 95817</span>
                                     </div>
                                 </div>             
                             </div>
